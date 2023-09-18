@@ -9,7 +9,3 @@ playerOnePoints -= 50;
 playerTwoPoints -=25;
 playerThreePoints +=75;
 
-var x = 1;
-var y = 2;
-var z=x+y;
-print(z);

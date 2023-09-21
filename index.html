@@ -1,7 +1,7 @@
 <html>
-    <body>
-        message
-    </body>
+    <head>
+        <title>message</title>
+    </head>
     <body> 
         <script> 
             function getMessage(name) {
@@ -9,6 +9,13 @@
             }
             const message = getMessage('Ornella');
             document.write(message);
+            
+            setTimeout(
+                () => {
+                    document.write('...Hello again!')},
+                2000
+            );
+            
         </script>
     </body>
 </html>

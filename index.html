@@ -1,11 +1,14 @@
 <html>
     <head>
-        <title>message</title>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" placeholder="Jane Doe">
     </head>
     <body> 
         <script> 
-            function getMessage(name) {
-                return 'Hello, ' + name + '...';
+            var xyz = document.getElementById('txtJob').value;
+            var name;
+            function getMessage(xyz) {
+                name = 'Hello, ' + xyz + '...';
             }
             const message = getMessage('Ornella');
             document.write(message);
@@ -17,5 +20,6 @@
             );
             
         </script>
+        <text value=""></text>
     </body>
 </html>

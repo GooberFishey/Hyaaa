@@ -12,7 +12,7 @@ let houseSum = houseOne+houseTwo+houseThree;
 let sum = cardOne+cardTwo+cardThree;
 
 if (sum > 21 || sum < houseSum) {
-  console.log('You have ${sum} points. House has ${houseSum} points. You loose!');
+  console.log(`You have ${sum} points. House has ${houseSum} points. You loose!`);
   process.exit(1); // exit program
 }
 
